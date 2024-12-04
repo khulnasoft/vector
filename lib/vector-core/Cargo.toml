@@ -6,7 +6,7 @@ edition = "2021"
 publish = false
 
 [dependencies]
-async-graphql = { version = "7.0.1", default-features = false, features = ["playground" ], optional = true }
+async-graphql = { version = "7.0.3", default-features = false, features = ["playground" ], optional = true }
 async-trait = { version = "0.1", default-features = false }
 bitmask-enum = { version = "2.2.3", default-features = false }
 bytes = { version = "1.5.0", default-features = false, features = ["serde"] }
@@ -31,7 +31,7 @@ mlua = { version = "0.9.4", default-features = false, features = ["lua54", "send
 no-proxy = { version  = "0.3.4", default-features = false, features = ["serialize"] }
 once_cell = { version = "1.19", default-features = false }
 ordered-float = { version = "4.2.0", default-features = false }
-openssl = { version = "0.10.63", default-features = false, features = ["vendored"] }
+openssl = { version = "0.10.66", default-features = false, features = ["vendored"] }
 parking_lot = { version = "0.12.1", default-features = false }
 pin-project.workspace = true
 proptest = { version = "1.4", optional = true }
